@@ -1,0 +1,10 @@
+client_secret.json
+secret
+
+*.pyc
+.mypy_cache
+.vscode
+venv
+build
+dist
+*.egg-info

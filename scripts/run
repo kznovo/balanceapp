@@ -1,0 +1,8 @@
+#!/bin/sh -e
+
+if [ -d venv ]; then
+  venv/bin/python balanceapi
+else
+  echo "run scripts/install first"
+  exit 1
+fi

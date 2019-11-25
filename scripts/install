@@ -1,0 +1,10 @@
+#!/bin/sh -e
+
+if hash python3 2>/dev/null; then
+  [ -d venv ] && rm -rf venv
+  python3 -m venv venv
+  venv/bin/pip install -e .
+else
+  echo "python3 not installed"
+  exit 1
+fi
