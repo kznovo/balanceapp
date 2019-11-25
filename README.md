@@ -1,6 +1,6 @@
-Income/Expense tracker
+# Income/Expense tracker
 
-Uses google spreadsheets as DB
+- Uses google spreadsheets as DB
 
 ## Requirements
 
@@ -8,6 +8,7 @@ Uses google spreadsheets as DB
 - MacOS/Linux(Ubuntu)
 - `secret` file to manage flask session
 - `config.ini` file
+- `client_secret.json` file (create credentials at https://console.developers.google.com/ and download the json)
 
 ## Quickstart
 
