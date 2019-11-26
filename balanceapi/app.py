@@ -15,6 +15,7 @@ from balanceapi.utils import (
     get_data_from_sheet,
 )
 
+os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"
 
 cfg = configparser.ConfigParser()
 cfg.read("config.ini")
